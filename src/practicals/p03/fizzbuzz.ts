@@ -1,7 +1,7 @@
 // Write your code below
 const FizBuzz = Number(process.argv[2]);
 if(isNaN(FizBuzz) || FizBuzz <= 0 ){
-    process.exit(1);
+    process.exit();
 }
 for(let sum = 1; sum <= FizBuzz; sum++){
     
