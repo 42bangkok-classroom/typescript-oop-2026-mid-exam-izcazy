@@ -2,7 +2,7 @@
 const grading = Number(process.argv[2]);
 if(isNaN(grading) || grading < 0 || grading > 100 ){
     console.log('Invalid input');
-    //process.exit(1);
+    process.exit();
 }
 else if(grading <= 100 && grading >= 80 ){
     console.log('Grade is A');
