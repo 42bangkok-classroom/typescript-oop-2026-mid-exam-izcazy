@@ -6,7 +6,6 @@ interface Person {
 
 function sortPersons(persons: Person[]): Person[] {}
 
-
 const persons: Person[] = [
   { firstName: "Somchai", lastName: "Jaidee", age: 30 },
   { firstName: "", lastName: "Test", age: 20 },
